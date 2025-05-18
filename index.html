@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>COPS Traffic Reporter</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+  <h1>COPS: Report Traffic Issues</h1>
+
+  <!-- 🔍 Filter by Type -->
+  <label for="filter-type">Filter by Type:</label>
+  <select id="filter-type">
+    <option value="all">All</option>
+    <option value="Accident">Accident</option>
+    <option value="Traffic Jam">Traffic Jam</option>
+    <option value="Road Block">Road Block</option>
+    <option value="Construction">Construction</option>
+    <option value="Other">Other</option>
+  </select>
+
+  <!-- 🧭 Navigation Section -->
+  <div id="navigation-controls">
+    <h3>🧭 Get Route</h3>
+    <label>From (lat,lng):</label>
+    <input type="text" id="from-coords" placeholder="e.g. 12.97,77.59">
+    <label>To (lat,lng):</label>
+    <input type="text" id="to-coords" placeholder="e.g. 13.03,77.60">
+    <button id="get-route-btn">Get Route</button>
+  </div>
+
+  <!-- 🗺️ Map Container -->
+  <div id="map" style="height: 500px;"></div>
+  <button id="start-nav-btn">🧭 Start Navigation</button>
+
+  <!-- 📍 Report Button -->
+  <button id="report-btn">📍 Report Traffic Issue</button>
+
+  <!-- 📦 Main logic and routing logic -->
+  <script src="script.js"></script>
+  <script src="routing.js"></script>
+</body>
+</html>

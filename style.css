@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 15px 0;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+#map {
+  height: 90vh;
+  width: 100%;
+}
+
+select, button, input {
+  padding: 5px;
+  font-size: 14px;
+}
+
+/* 🔄 Route Input UI */
+#navigation-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  padding: 10px;
+  background-color: #f3f3f3;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+#navigation-controls label {
+  font-weight: bold;
+}
+
+#navigation-controls input {
+  width: 160px;
+}
+
+#get-route-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#get-route-btn:hover {
+  background-color: #0056b3;
+}
+#start-nav-btn {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: 12px 18px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#start-nav-btn:hover {
+  background-color: #0056b3;
+}
