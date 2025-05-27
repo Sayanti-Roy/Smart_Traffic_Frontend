@@ -4,6 +4,8 @@ Hello, my name is Sayanti Roy, and I'd like to briefly walk you through a projec
 💡 Problem Solved
 In most cities, traffic management systems lack real-time public input, making it difficult for authorities and drivers to respond to sudden disruptions. My system bridges this gap by crowdsourcing live traffic issue reports and displaying them on an interactive map, empowering both citizens and traffic departments.
 
+Deployment link:- https://cops-frontend.vercel.app/
+
 🛠️ Tech Stack
 Frontend: HTML, CSS, JavaScript with Leaflet.js for interactive maps and OpenRouteService for live route planning.
 
