@@ -1,5 +1,5 @@
 🚦 Smart Traffic Issue Reporter – Project Overview Script
-Hello, my name is [Your Name], and I'd like to briefly walk you through a project I built called COPS: Smart Traffic Issue Reporter. It's a real-time, map-based web application designed to improve urban mobility and safety by allowing users to report and visualize traffic-related problems like accidents, traffic jams, and roadblocks.
+Hello, my name is Sayanti Roy, and I'd like to briefly walk you through a project I built called COPS: Smart Traffic Issue Reporter. It's a real-time, map-based web application designed to improve urban mobility and safety by allowing users to report and visualize traffic-related problems like accidents, traffic jams, and roadblocks.
 
 💡 Problem Solved
 In most cities, traffic management systems lack real-time public input, making it difficult for authorities and drivers to respond to sudden disruptions. My system bridges this gap by crowdsourcing live traffic issue reports and displaying them on an interactive map, empowering both citizens and traffic departments.
